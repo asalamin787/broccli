@@ -19,7 +19,7 @@
     <link href="{{ asset('assets/vendor_dashboard/css/icons.min.css') }}" rel="stylesheet" type="text/css" />
     <!-- App Css-->
     <link href="{{ asset('assets/vendor_dashboard/css/app.min.css') }}" id="app-style" rel="stylesheet" type="text/css" />
-
+    @stack('css')
 </head>
 
 <body data-sidebar="dark">
@@ -91,6 +91,7 @@
 
     <!-- App js -->
     <script src="{{ asset('assets/vendor_dashboard/js/app.js') }}"></script>
+    @stack('js')
 </body>
 
 
